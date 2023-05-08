@@ -1,0 +1,306 @@
+
+$white-bg:white;
+
+$dark-bg:#0A2640;
+$text-grey: #777777;
+
+body{
+    background-color: $white-bg;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+#smaller_size{
+    width: 35px;
+}
+
+
+@font-face {
+    font-family: Manrope_light;
+    src: url(Manrope-VariableFont_wght.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Manrope_regular;
+    src: url(Manrope-VariableFont_wght.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Manrope_extra_light;
+    src: url(Manrope-VariableFont_wght.ttf);
+    font-weight: 200;
+}
+
+.section_description{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: Manrope_extra_light;
+    color: $dark-bg;
+    
+    
+}
+
+.tiny_img{
+    background-color: none;
+    width: 25px;
+    height: 25px;
+
+    
+
+}
+.first_section{
+    background-color: white;
+    position: relative;
+    width:100%;
+    height:fit-content;
+    padding: 20px;
+
+    span{
+        font-size: 12px;
+    }
+
+    .central{
+        text-align: center;
+    }
+  
+    .left_title{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size:43.25px;
+        color:$dark-bg;
+        
+    }
+
+    .right_title{
+        font-family: sans-serif;
+        color: $dark-bg;
+        ul{
+            list-style: none;
+            
+            li{
+                display: inline;
+                margin-right: 40px;
+            }
+            li:last-child{
+                margin-right: 0px;
+                color: $dark-bg;
+                background-color: $white-bg;
+                border-radius: 24px;
+                border: 1px solid $dark-bg;
+                padding: 8px 40px 8px 40px;
+                margin-top: 5px;
+            }
+        }
+
+        
+        
+    }
+
+    
+    .first_title{
+        font-size: 35px;
+        font-family: Manrope_regular;
+        color: $dark-bg;
+        width: 450px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .img_margin{
+      margin-left: 170px;
+    }
+
+    .image_title{
+        font-size: 28px;
+        font-family: Manrope_regular;
+        color: $dark-bg;
+        width: 450px;
+        margin-bottom: 10px;
+    }
+
+    .first_body{
+        font-size: 12px;
+        font-family: Manrope_light;
+        color: $dark-bg;
+        width: 420px;
+        margin-bottom: 60px;
+        
+        
+
+    }    
+
+    
+
+    #img_wrapper{
+        width:320px;
+        height:224px;
+    }
+}
+
+.second_section_description{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: Manrope_regular;
+    color: $dark-bg;
+    
+    
+}
+
+.second_section {
+    background-color: none;
+     .card .card-img-top{
+        width:80%;
+    }
+    .card-body{
+        max-width: 260px;
+    }
+
+    .page_link{
+        color: $dark-bg;
+        background-color: $white-bg;
+        border-radius: 24px;
+        border: 1px solid $dark-bg;
+        padding: 8px 40px 8px 40px;
+        width: fit-content;
+        text-align: center;
+        font-weight: 700;
+        
+    }
+
+    a{
+        color: black;
+    }
+    
+    
+}
+
+.seventh_section{
+    margin-top: 60px;
+    background-color: $dark-bg;
+    position: relative;
+
+    .last_text{
+        font-size: 35px;
+        font-family: Manrope_light;
+        width:530px;
+        color: $white-bg;
+        z-index: 1;
+    }
+
+    .form-inline{
+        width:530px;
+    }
+
+    .border_rad{
+        border-radius: 1.25rem;
+    
+    }
+    .custom_w{
+        width:250px;
+    }
+
+    .btn_style{
+        background-color: #65E4A3;
+        color: $dark-bg;
+        border-radius: 1.25rem;
+        width:130px;
+        border: none;
+        height: 85%;
+        margin-bottom: 0.5rem;
+        padding-bottom: 5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+    }
+
+    
+
+    .background_image{
+        position: absolute;
+        width: 60%;
+        height: 60%;
+        top: 0px;
+        right: 0px;
+        z-index:0;
+        opacity: 0.5;
+    }
+
+
+
+    
+
+    
+
+}
+
+.eigth_section{
+    background-color: none;
+    margin-top: 80px;
+
+    p{
+        font-size: 12px;
+        color: #777777;
+
+    }
+    ul{
+      list-style-type:none;
+    }
+
+    li{
+        margin-bottom: 30px;
+        font-size: 12px;
+        color: $text-grey;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    li:first-child{
+        font-weight: 700;
+        color: black;
+    }
+
+    .badge{
+        padding: 7px;
+        background-color:#65E4A3;
+        border-radius: 1.25rem;
+        color: black;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width:768px){
+    .first_section{
+
+         .right_title{
+
+            ul{
+                margin-top: 10px;
+            }
+            
+           ul li{
+            display: block;
+            text-align: center;
+        }
+        .img_margin{
+            margin-left: 0;
+        }
+        
+
+        
+    }
+
+    }
+}
